@@ -32,7 +32,7 @@ body {
 		list-style: none;
 		text-align: center;
 		@include font-size(24,no);
-		text-transform: uppercase;
+		text-transform: none;
 		color: $white;
 		@include media($medium) {
 			@include font-size(14,no);
@@ -210,7 +210,7 @@ body {
 .entry-tags {
 	display: block;
 	margin-top: 2em;
-	text-transform: uppercase;
+	text-transform: none;
 	@include font-size(16);
 	font-weight: 600;
 	a { 
@@ -247,7 +247,7 @@ span + .entry-title {
 }
 .entry-meta {
 	@include span-columns(12);
-	text-transform: uppercase;
+	text-transform: none;
 	@include font-size(14);
 	a { 
 		color: $text-color; 
@@ -338,7 +338,7 @@ span + .entry-title {
 	}
 	.entry-date {
 		@include font-size(14,no);
-		text-transform: uppercase;
+		text-transform: none;
 		display: none;
 		@include media($medium) {
 			display: inline;
