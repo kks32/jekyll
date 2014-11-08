@@ -231,15 +231,10 @@ Start by modifying `authors.yml` file in the `_data` folder and add your authors
 {% highlight yaml %}
 # Authors
 
-billy_rick:
-  name: Billy Rick
-  web: http://thewhip.com
-  email: billy@rick.com
-  bio: "What do you want, jewels? I am a very extravagant man."
-  avatar: bio-photo-2.jpg
-  twitter: extravagantman
-  google:
-    plus: +BillyRick
+krishna_kumar:
+  name: Krishna Kumar
+  web: https://github.com/kks32
+  email: kks32@cam.ac.uk
 
 cornelius_fiddlebone:
   name: Cornelius Fiddlebone
@@ -251,10 +246,10 @@ cornelius_fiddlebone:
     plus: +CorneliusFiddlebone
 {% endhighlight %}
 
-To assign Billy Rick as an author for our post. We'd add the following YAML front matter to a post:
+To assign Krishna Kumar as an author for our post. We'd add the following YAML front matter to a post:
 
 {% highlight yaml %}
-author: billy_rick
+author: krishna_kumar
 {% endhighlight %}
 
 ---
