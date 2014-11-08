@@ -5,8 +5,8 @@ locale: en_GB
 description: A clean responsive Jekyll.
 #logo: site-logo.png
 search: true
-#url: http://kks32.github.io/jekyll
-url: 
+url: http://kks32.github.io/jekyll
+#url: 
 
 
 # Jekyll configuration
