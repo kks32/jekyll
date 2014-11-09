@@ -16,7 +16,7 @@ General notes and suggestions for customizing **So Simple Theme**.
 
 ## Installation
 
-So Simple now requires [Jekyll](http://jekyllrb.com/) 2.x. Make sure to run `gem update jekyll` if you aren't on the latest version or `gem install jekyll` if this is your first time installing it.
+So Simple now requires [Jekyll](http://jekyllrb.com/) $2.x$. Make sure to run `gem update jekyll` if you aren't on the latest version or `gem install jekyll` if this is your first time installing it.
 
 If you are creating a new Jekyll site using So Simple follow these steps:
 
