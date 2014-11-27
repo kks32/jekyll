@@ -378,13 +378,19 @@ span + .entry-title {
     padding-left: 0;
     border: 1px solid $border-color;
     border-radius: $border-radius;
+    background-color: #FFFAF0;
+    @media only screen and (min-width: 768px) {
+        position: fixed;
+        left: 0cm;
+    }
     ul {
   	list-style-type: none;
-  	padding-left: 0;
+  	padding-left: 2em;
+	border-bottom: 1px solid #ddd;
     }
     li {
         @include font-size(16,no,18);
-        border-bottom: 1px solid $border-color;
+        //   border-bottom: 1px solid $border-color;
         list-style-type: none;
     }
     h6 {
