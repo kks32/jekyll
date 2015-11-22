@@ -9,6 +9,7 @@ branches:
 
 before_install:
   - export NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+  - gem install pygments
 
 script:
   - set -e
