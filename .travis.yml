@@ -1,3 +1,4 @@
+sudo: false
 language: ruby
 rvm:
   - 2.1
@@ -9,7 +10,7 @@ branches:
 
 before_install:
   - export NOKOGIRI_USE_SYSTEM_LIBRARIES=true
-  - gem install pygments
+  - gem install pigments
 
 script:
   - set -e
