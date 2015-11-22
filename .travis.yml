@@ -1,4 +1,4 @@
-sudo: false
+sudo: required
 language: ruby
 rvm:
   - 2.1
@@ -10,6 +10,7 @@ branches:
 
 before_install:
   - export NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+  - sudo apt-get install python-pygments
   - gem install rb-pygments
 
 script:
