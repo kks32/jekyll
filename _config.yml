@@ -2,12 +2,10 @@
 
 title: A Jekyll template
 locale: en_GB
-description: A clean responsive Jekyll.
+description: Clean Jekyll template
 #logo: site-logo.png
 search: true
-url: https://kks32.github.io/jekyll
-#url: 
-
+url: http://localhost:4000
 
 # Jekyll configuration
 
@@ -27,6 +25,8 @@ kramdown:
   toc_levels: 1..2
   enable_coderay: false
 
+mathjax: true
+
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
 
@@ -35,21 +35,22 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 owner:
   name: Krishna Kumar
 #  avatar: bio-photo.jpg
-  email: kks32@cam.ac.uk
+  email: you@email.com
 #  disqus-shortname:
 #  twitter: #username
 #  facebook: #username
   github: kks32
-  github_project: https://github.com/kks32/jekyll
 #  stackexchange: #http://stackoverflow.com/users/123456/username
 #  linkedin: #username
 #  instagram: #username
 #  flickr: #username
 #  tumblr: #username
+#  pinterest: #username
+#  weibo: #userid
 #  google:
 #    plus: #username
 #    analytics:
 #    verify:
 #    ad-client:
-#    ad-slot: 
+#    ad-slot:
 #  bing-verify:
