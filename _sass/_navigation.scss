@@ -24,7 +24,7 @@
     list-style: none;
     text-align: center;
     @include font-size(24,no);
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: $white;
     @include media($medium) {
       @include font-size(14,no);

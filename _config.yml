@@ -5,8 +5,8 @@ locale: en_GB
 description: Clean Jekyll template
 #logo: site-logo.png
 search: true
-#url: https://kks32.github.io/jekyll
-url: http://localhost:4000
+url: https://kks32.github.io/jekyll
+#url: http://localhost:4000
 
 # Jekyll configuration
 
